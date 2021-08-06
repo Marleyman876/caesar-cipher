@@ -23,6 +23,10 @@ def test_crack():
     expected = "python"
     assert actual == expected
 
+def test_decrypt():
+    decrypt('bcd', 1)
+    assert 'abc'
+
 
 
 def test_crack():
